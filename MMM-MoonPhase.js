@@ -62,7 +62,7 @@ Module.register("MMM-MoonPhase", {
 		}
 
 		//Adding in our moon phase for below the moon
-		let phase   = document.createElement("p");
+		let phase   = document.createElement("div");
 		phase.id    = "moonphase-phase";
 
 		if (!this.config.phase){ // Hiding the title if turned off in config
@@ -252,7 +252,7 @@ Module.register("MMM-MoonPhase", {
 			fr: "translations/fr.json",
 			sv: "translations/sv.json",
 			es: "translations/es.json",
-			gr: "translations/gr.json",
+			el: "translations/gr.json",
 			pl: "translations/pl.json",
 			it: "translations/it.json"
 		};
